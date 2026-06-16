@@ -1,0 +1,2702 @@
+{
+  "versie": "1.10",
+  "gebaseerd_op": "v1.4 (Drive) + v1.6-mutaties + ladder-systeem + bil-uitbreiding",
+  "gegenereerd": "2026-06-14",
+  "status": "merge compleet door Claude 12-06-2026; tier-waarden + v1.6-reconstructie wachten op Bas-review",
+  "wijzigingen_t.o.v._v1.4": [
+    "v1.6: 4 oefeningen verwijderd (walking lunges, 2 DB calf varianten)",
+    "v1.6: Cable Pushdown -> Triceps Pushdown (coach_prioriteit voorkeur)",
+    "v1.6: Overhead Cable + Dumbbell Extension -> Overhead Triceps Extension (attachment-neutraal)",
+    "ladder-systeem: ladder_familie + ladder_position toegevoegd aan alle oefeningen",
+    "bil-uitbreiding: 4 nieuwe oefeningen (45 Hip Extension bil-focus, Reverse Lunge DB, Cable Box Step-up, Hip Adduction Machine)",
+    "tier-correctie: Bulgarian Split Squat (bil) 2 -> 3"
+  ],
+  "aantal": 107,
+  "oefeningen": [
+    {
+      "naam": "Barbell Bench Press",
+      "primaire_spier": "Borst",
+      "secundaire_spieren": [
+        "Triceps",
+        "Voorste delt"
+      ],
+      "patroon": "Horizontale pers",
+      "type": "Compound",
+      "materiaal": [
+        "barbell",
+        "rack",
+        "bench"
+      ],
+      "stabiliteit": "Vrij",
+      "techniek_niveau": "Gevorderd",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Hoog",
+      "belasting_profiel": "Kracht",
+      "weerstandsprofiel": "Mid",
+      "contra_indicaties": [
+        "Schouder",
+        "Pols"
+      ],
+      "substitutiegroep": "borst-horizontale-pers",
+      "coach_prioriteit": "voorkeur",
+      "novice_only": false,
+      "ladder_familie": "Pers (horizontaal)",
+      "ladder_position": 3
+    },
+    {
+      "naam": "Dumbbell Bench Press",
+      "primaire_spier": "Borst",
+      "secundaire_spieren": [
+        "Triceps",
+        "Voorste delt"
+      ],
+      "patroon": "Horizontale pers",
+      "type": "Compound",
+      "materiaal": [
+        "dumbbell",
+        "bench"
+      ],
+      "stabiliteit": "Vrij",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Midden",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Gerekt",
+      "contra_indicaties": [
+        "Schouder"
+      ],
+      "substitutiegroep": "borst-horizontale-pers",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": "Pers (horizontaal)",
+      "ladder_position": 2
+    },
+    {
+      "naam": "Machine Chest Press",
+      "primaire_spier": "Borst",
+      "secundaire_spieren": [
+        "Triceps",
+        "Voorste delt"
+      ],
+      "patroon": "Horizontale pers",
+      "type": "Compound",
+      "materiaal": [
+        "chest_press_machine"
+      ],
+      "stabiliteit": "Ondersteund",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Mid",
+      "contra_indicaties": [],
+      "substitutiegroep": "borst-horizontale-pers",
+      "coach_prioriteit": "voorkeur",
+      "novice_only": false,
+      "ladder_familie": "Pers (horizontaal)",
+      "ladder_position": 1
+    },
+    {
+      "naam": "Smith Bench Press",
+      "primaire_spier": "Borst",
+      "secundaire_spieren": [
+        "Triceps",
+        "Voorste delt"
+      ],
+      "patroon": "Horizontale pers",
+      "type": "Compound",
+      "materiaal": [
+        "smith",
+        "bench"
+      ],
+      "stabiliteit": "Machine",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Midden",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Mid",
+      "contra_indicaties": [
+        "Schouder"
+      ],
+      "substitutiegroep": "borst-horizontale-pers",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": "Pers (horizontaal)",
+      "ladder_position": 2
+    },
+    {
+      "naam": "Incline Dumbbell Press",
+      "primaire_spier": "Borst",
+      "secundaire_spieren": [
+        "Voorste delt",
+        "Triceps"
+      ],
+      "patroon": "Incline pers",
+      "type": "Compound",
+      "materiaal": [
+        "dumbbell",
+        "bench"
+      ],
+      "stabiliteit": "Vrij",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Midden",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Gerekt",
+      "contra_indicaties": [
+        "Schouder"
+      ],
+      "substitutiegroep": "borst-incline-pers",
+      "coach_prioriteit": "voorkeur",
+      "novice_only": false,
+      "ladder_familie": "Pers (incline)",
+      "ladder_position": 3
+    },
+    {
+      "naam": "Incline Machine Press",
+      "primaire_spier": "Borst",
+      "secundaire_spieren": [
+        "Voorste delt",
+        "Triceps"
+      ],
+      "patroon": "Incline pers",
+      "type": "Compound",
+      "materiaal": [
+        "chest_press_machine"
+      ],
+      "stabiliteit": "Ondersteund",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Mid",
+      "contra_indicaties": [],
+      "substitutiegroep": "borst-incline-pers",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": "Pers (incline)",
+      "ladder_position": 1
+    },
+    {
+      "naam": "Pec Deck",
+      "primaire_spier": "Borst",
+      "secundaire_spieren": [],
+      "patroon": "Adductie",
+      "type": "Isolatie",
+      "materiaal": [
+        "pec_deck"
+      ],
+      "stabiliteit": "Ondersteund",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Mid",
+      "contra_indicaties": [
+        "Schouder"
+      ],
+      "substitutiegroep": "borst-isolatie",
+      "coach_prioriteit": "voorkeur",
+      "novice_only": false,
+      "ladder_familie": null,
+      "ladder_position": null
+    },
+    {
+      "naam": "Cable Chest Fly (High)",
+      "primaire_spier": "Borst",
+      "secundaire_spieren": [],
+      "patroon": "Adductie",
+      "type": "Isolatie",
+      "materiaal": [
+        "cable"
+      ],
+      "stabiliteit": "Ondersteund",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Metaboliet",
+      "weerstandsprofiel": "Gerekt",
+      "contra_indicaties": [
+        "Schouder"
+      ],
+      "substitutiegroep": "borst-isolatie",
+      "coach_prioriteit": "voorkeur",
+      "novice_only": false,
+      "ladder_familie": null,
+      "ladder_position": null
+    },
+    {
+      "naam": "Dumbbell Fly",
+      "primaire_spier": "Borst",
+      "secundaire_spieren": [],
+      "patroon": "Adductie",
+      "type": "Isolatie",
+      "materiaal": [
+        "dumbbell",
+        "bench"
+      ],
+      "stabiliteit": "Vrij",
+      "techniek_niveau": "Gevorderd",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Midden",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Gerekt",
+      "contra_indicaties": [
+        "Schouder"
+      ],
+      "substitutiegroep": "borst-isolatie",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": null,
+      "ladder_position": null
+    },
+    {
+      "naam": "Push-up",
+      "primaire_spier": "Borst",
+      "secundaire_spieren": [
+        "Triceps",
+        "Voorste delt",
+        "Core"
+      ],
+      "patroon": "Horizontale pers",
+      "type": "Compound",
+      "materiaal": [
+        "bodyweight"
+      ],
+      "stabiliteit": "Vrij",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Metaboliet",
+      "weerstandsprofiel": "Mid",
+      "contra_indicaties": [
+        "Pols"
+      ],
+      "substitutiegroep": "borst-horizontale-pers",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": "Pers (horizontaal)",
+      "ladder_position": 1
+    },
+    {
+      "naam": "Weighted Dip (borst)",
+      "primaire_spier": "Borst",
+      "secundaire_spieren": [
+        "Triceps",
+        "Voorste delt"
+      ],
+      "patroon": "Dip",
+      "type": "Compound",
+      "materiaal": [
+        "dip_station"
+      ],
+      "stabiliteit": "Vrij",
+      "techniek_niveau": "Gevorderd",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Midden",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Gerekt",
+      "contra_indicaties": [
+        "Schouder"
+      ],
+      "substitutiegroep": "borst-dip",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": "Dip",
+      "ladder_position": 4
+    },
+    {
+      "naam": "Lat Pulldown",
+      "primaire_spier": "Rug",
+      "secundaire_spieren": [
+        "Biceps"
+      ],
+      "patroon": "Verticale trek",
+      "type": "Compound",
+      "materiaal": [
+        "lat_pulldown"
+      ],
+      "stabiliteit": "Ondersteund",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Gerekt",
+      "contra_indicaties": [],
+      "substitutiegroep": "rug-verticale-trek",
+      "coach_prioriteit": "voorkeur",
+      "novice_only": false,
+      "ladder_familie": "Verticale trek",
+      "ladder_position": 1
+    },
+    {
+      "naam": "Assisted Pull-up",
+      "primaire_spier": "Rug",
+      "secundaire_spieren": [
+        "Biceps"
+      ],
+      "patroon": "Verticale trek",
+      "type": "Compound",
+      "materiaal": [
+        "assisted_pullup"
+      ],
+      "stabiliteit": "Ondersteund",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Gerekt",
+      "contra_indicaties": [],
+      "substitutiegroep": "rug-verticale-trek",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": "Verticale trek",
+      "ladder_position": 2
+    },
+    {
+      "naam": "Pull-up / Chin-up",
+      "primaire_spier": "Rug",
+      "secundaire_spieren": [
+        "Biceps"
+      ],
+      "patroon": "Verticale trek",
+      "type": "Compound",
+      "materiaal": [
+        "pullup_bar"
+      ],
+      "stabiliteit": "Vrij",
+      "techniek_niveau": "Gevorderd",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Midden",
+      "belasting_profiel": "Kracht",
+      "weerstandsprofiel": "Gerekt",
+      "contra_indicaties": [
+        "Schouder",
+        "Elleboog"
+      ],
+      "substitutiegroep": "rug-verticale-trek",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": "Verticale trek",
+      "ladder_position": 3
+    },
+    {
+      "naam": "Seated Cable Row",
+      "primaire_spier": "Rug",
+      "secundaire_spieren": [
+        "Biceps",
+        "Achterste delt"
+      ],
+      "patroon": "Horizontale trek",
+      "type": "Compound",
+      "materiaal": [
+        "cable",
+        "row_machine"
+      ],
+      "stabiliteit": "Ondersteund",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Mid",
+      "contra_indicaties": [],
+      "substitutiegroep": "rug-horizontale-trek",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": "Horizontale trek",
+      "ladder_position": 1
+    },
+    {
+      "naam": "Chest-Supported Row",
+      "primaire_spier": "Rug",
+      "secundaire_spieren": [
+        "Biceps",
+        "Achterste delt"
+      ],
+      "patroon": "Horizontale trek",
+      "type": "Compound",
+      "materiaal": [
+        "row_machine"
+      ],
+      "stabiliteit": "Ondersteund",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Mid",
+      "contra_indicaties": [],
+      "substitutiegroep": "rug-horizontale-trek",
+      "coach_prioriteit": "voorkeur",
+      "novice_only": false,
+      "ladder_familie": "Horizontale trek",
+      "ladder_position": 1
+    },
+    {
+      "naam": "Barbell Row",
+      "primaire_spier": "Rug",
+      "secundaire_spieren": [
+        "Biceps",
+        "Achterste delt",
+        "Onderrug"
+      ],
+      "patroon": "Horizontale trek",
+      "type": "Compound",
+      "materiaal": [
+        "barbell"
+      ],
+      "stabiliteit": "Vrij",
+      "techniek_niveau": "Gevorderd",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Hoog",
+      "belasting_profiel": "Kracht",
+      "weerstandsprofiel": "Mid",
+      "contra_indicaties": [
+        "Onderrug"
+      ],
+      "substitutiegroep": "rug-horizontale-trek",
+      "coach_prioriteit": "voorkeur",
+      "novice_only": false,
+      "ladder_familie": "Horizontale trek",
+      "ladder_position": 4
+    },
+    {
+      "naam": "One-Arm Dumbbell Row",
+      "primaire_spier": "Rug",
+      "secundaire_spieren": [
+        "Biceps"
+      ],
+      "patroon": "Horizontale trek",
+      "type": "Compound",
+      "materiaal": [
+        "dumbbell",
+        "bench"
+      ],
+      "stabiliteit": "Semi",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Ja",
+      "vermoeidheidskost": "Midden",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Gerekt",
+      "contra_indicaties": [],
+      "substitutiegroep": "rug-horizontale-trek",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": "Horizontale trek",
+      "ladder_position": 2
+    },
+    {
+      "naam": "T-Bar / Landmine Row",
+      "primaire_spier": "Rug",
+      "secundaire_spieren": [
+        "Biceps",
+        "Achterste delt"
+      ],
+      "patroon": "Horizontale trek",
+      "type": "Compound",
+      "materiaal": [
+        "landmine",
+        "barbell"
+      ],
+      "stabiliteit": "Vrij",
+      "techniek_niveau": "Gevorderd",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Hoog",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Mid",
+      "contra_indicaties": [
+        "Onderrug"
+      ],
+      "substitutiegroep": "rug-horizontale-trek",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": "Horizontale trek",
+      "ladder_position": 3
+    },
+    {
+      "naam": "Straight-Arm Pulldown",
+      "primaire_spier": "Rug",
+      "secundaire_spieren": [],
+      "patroon": "Lat-isolatie",
+      "type": "Isolatie",
+      "materiaal": [
+        "cable"
+      ],
+      "stabiliteit": "Ondersteund",
+      "techniek_niveau": "Gevorderd",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Metaboliet",
+      "weerstandsprofiel": "Gerekt",
+      "contra_indicaties": [],
+      "substitutiegroep": "rug-lat-isolatie",
+      "coach_prioriteit": "voorkeur",
+      "novice_only": false,
+      "ladder_familie": null,
+      "ladder_position": null
+    },
+    {
+      "naam": "Dumbbell Pullover",
+      "primaire_spier": "Rug",
+      "secundaire_spieren": [
+        "Borst"
+      ],
+      "patroon": "Lat-isolatie",
+      "type": "Isolatie",
+      "materiaal": [
+        "dumbbell",
+        "bench"
+      ],
+      "stabiliteit": "Semi",
+      "techniek_niveau": "Gevorderd",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Midden",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Gerekt",
+      "contra_indicaties": [
+        "Schouder"
+      ],
+      "substitutiegroep": "rug-lat-isolatie",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": null,
+      "ladder_position": null
+    },
+    {
+      "naam": "Overhead Barbell Press",
+      "primaire_spier": "Schouders",
+      "secundaire_spieren": [
+        "Triceps",
+        "Bovenrug",
+        "Core"
+      ],
+      "patroon": "Verticale pers",
+      "type": "Compound",
+      "materiaal": [
+        "barbell",
+        "rack"
+      ],
+      "stabiliteit": "Vrij",
+      "techniek_niveau": "Gevorderd",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Hoog",
+      "belasting_profiel": "Kracht",
+      "weerstandsprofiel": "Mid",
+      "contra_indicaties": [
+        "Schouder",
+        "Onderrug",
+        "Pols"
+      ],
+      "substitutiegroep": "schouder-pers",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": "Verticale pers",
+      "ladder_position": 3
+    },
+    {
+      "naam": "Seated Dumbbell Press",
+      "primaire_spier": "Schouders",
+      "secundaire_spieren": [
+        "Triceps"
+      ],
+      "patroon": "Verticale pers",
+      "type": "Compound",
+      "materiaal": [
+        "dumbbell",
+        "bench"
+      ],
+      "stabiliteit": "Semi",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Midden",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Mid",
+      "contra_indicaties": [
+        "Schouder",
+        "Pols"
+      ],
+      "substitutiegroep": "schouder-pers",
+      "coach_prioriteit": "voorkeur",
+      "novice_only": false,
+      "ladder_familie": "Verticale pers",
+      "ladder_position": 2
+    },
+    {
+      "naam": "Machine Shoulder Press",
+      "primaire_spier": "Schouders",
+      "secundaire_spieren": [
+        "Triceps"
+      ],
+      "patroon": "Verticale pers",
+      "type": "Compound",
+      "materiaal": [
+        "shoulder_press_machine"
+      ],
+      "stabiliteit": "Ondersteund",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Mid",
+      "contra_indicaties": [
+        "Pols"
+      ],
+      "substitutiegroep": "schouder-pers",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": "Verticale pers",
+      "ladder_position": 1
+    },
+    {
+      "naam": "Smith Shoulder Press",
+      "primaire_spier": "Schouders",
+      "secundaire_spieren": [
+        "Triceps"
+      ],
+      "patroon": "Verticale pers",
+      "type": "Compound",
+      "materiaal": [
+        "smith",
+        "bench"
+      ],
+      "stabiliteit": "Machine",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Midden",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Mid",
+      "contra_indicaties": [
+        "Schouder",
+        "Pols"
+      ],
+      "substitutiegroep": "schouder-pers",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": "Verticale pers",
+      "ladder_position": 2
+    },
+    {
+      "naam": "Dumbbell Lateral Raise",
+      "primaire_spier": "Schouders",
+      "secundaire_spieren": [],
+      "patroon": "Abductie",
+      "type": "Isolatie",
+      "materiaal": [
+        "dumbbell"
+      ],
+      "stabiliteit": "Vrij",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Metaboliet",
+      "weerstandsprofiel": "Samengetrokken",
+      "contra_indicaties": [],
+      "substitutiegroep": "zijkant-delt",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": null,
+      "ladder_position": null
+    },
+    {
+      "naam": "Cable Lateral Raise",
+      "primaire_spier": "Schouders",
+      "secundaire_spieren": [],
+      "patroon": "Abductie",
+      "type": "Isolatie",
+      "materiaal": [
+        "cable"
+      ],
+      "stabiliteit": "Ondersteund",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Ja",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Metaboliet",
+      "weerstandsprofiel": "Gerekt",
+      "contra_indicaties": [],
+      "substitutiegroep": "zijkant-delt",
+      "coach_prioriteit": "voorkeur",
+      "novice_only": false,
+      "ladder_familie": null,
+      "ladder_position": null
+    },
+    {
+      "naam": "Machine Lateral Raise",
+      "primaire_spier": "Schouders",
+      "secundaire_spieren": [],
+      "patroon": "Abductie",
+      "type": "Isolatie",
+      "materiaal": [
+        "machine"
+      ],
+      "stabiliteit": "Ondersteund",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Metaboliet",
+      "weerstandsprofiel": "Mid",
+      "contra_indicaties": [],
+      "substitutiegroep": "zijkant-delt",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": null,
+      "ladder_position": null
+    },
+    {
+      "naam": "Face Pull",
+      "primaire_spier": "Schouders",
+      "secundaire_spieren": [
+        "Bovenrug"
+      ],
+      "patroon": "Horizontale trek (hoog)",
+      "type": "Isolatie",
+      "materiaal": [
+        "cable"
+      ],
+      "stabiliteit": "Ondersteund",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Metaboliet",
+      "weerstandsprofiel": "Samengetrokken",
+      "contra_indicaties": [],
+      "substitutiegroep": "achterste-delt",
+      "coach_prioriteit": "voorkeur",
+      "novice_only": false,
+      "ladder_familie": null,
+      "ladder_position": null
+    },
+    {
+      "naam": "Reverse Pec Deck",
+      "primaire_spier": "Schouders",
+      "secundaire_spieren": [],
+      "patroon": "Horizontale trek (hoog)",
+      "type": "Isolatie",
+      "materiaal": [
+        "reverse_pec_deck"
+      ],
+      "stabiliteit": "Ondersteund",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Metaboliet",
+      "weerstandsprofiel": "Samengetrokken",
+      "contra_indicaties": [],
+      "substitutiegroep": "achterste-delt",
+      "coach_prioriteit": "voorkeur",
+      "novice_only": false,
+      "ladder_familie": null,
+      "ladder_position": null
+    },
+    {
+      "naam": "Chest-Supported Reverse Fly",
+      "primaire_spier": "Schouders",
+      "secundaire_spieren": [],
+      "patroon": "Horizontale trek (hoog)",
+      "type": "Isolatie",
+      "materiaal": [
+        "dumbbell",
+        "bench"
+      ],
+      "stabiliteit": "Ondersteund",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Metaboliet",
+      "weerstandsprofiel": "Gerekt",
+      "contra_indicaties": [],
+      "substitutiegroep": "achterste-delt",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": null,
+      "ladder_position": null
+    },
+    {
+      "naam": "Barbell Curl",
+      "primaire_spier": "Biceps",
+      "secundaire_spieren": [
+        "Onderarm"
+      ],
+      "patroon": "Elleboogflexie",
+      "type": "Isolatie",
+      "materiaal": [
+        "ez_bar"
+      ],
+      "stabiliteit": "Vrij",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Mid",
+      "contra_indicaties": [
+        "Pols",
+        "Elleboog"
+      ],
+      "substitutiegroep": "biceps-curl-staand",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": null,
+      "ladder_position": null
+    },
+    {
+      "naam": "Dumbbell Curl",
+      "primaire_spier": "Biceps",
+      "secundaire_spieren": [],
+      "patroon": "Elleboogflexie",
+      "type": "Isolatie",
+      "materiaal": [
+        "dumbbell"
+      ],
+      "stabiliteit": "Vrij",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Mid",
+      "contra_indicaties": [
+        "Elleboog"
+      ],
+      "substitutiegroep": "biceps-curl-staand",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": null,
+      "ladder_position": null
+    },
+    {
+      "naam": "Incline Dumbbell Curl",
+      "primaire_spier": "Biceps",
+      "secundaire_spieren": [],
+      "patroon": "Elleboogflexie",
+      "type": "Isolatie",
+      "materiaal": [
+        "dumbbell",
+        "bench"
+      ],
+      "stabiliteit": "Semi",
+      "techniek_niveau": "Gevorderd",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Gerekt",
+      "contra_indicaties": [
+        "Elleboog"
+      ],
+      "substitutiegroep": "biceps-curl-gerekt",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": null,
+      "ladder_position": null
+    },
+    {
+      "naam": "Cable Curl",
+      "primaire_spier": "Biceps",
+      "secundaire_spieren": [],
+      "patroon": "Elleboogflexie",
+      "type": "Isolatie",
+      "materiaal": [
+        "cable"
+      ],
+      "stabiliteit": "Ondersteund",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Metaboliet",
+      "weerstandsprofiel": "Mid",
+      "contra_indicaties": [
+        "Elleboog"
+      ],
+      "substitutiegroep": "biceps-curl-staand",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": null,
+      "ladder_position": null
+    },
+    {
+      "naam": "Preacher Curl",
+      "primaire_spier": "Biceps",
+      "secundaire_spieren": [],
+      "patroon": "Elleboogflexie",
+      "type": "Isolatie",
+      "materiaal": [
+        "preacher_bench"
+      ],
+      "stabiliteit": "Ondersteund",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Samengetrokken",
+      "contra_indicaties": [
+        "Elleboog"
+      ],
+      "substitutiegroep": "biceps-curl-preacher",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": null,
+      "ladder_position": null
+    },
+    {
+      "naam": "Hammer Curl",
+      "primaire_spier": "Biceps",
+      "secundaire_spieren": [
+        "Onderarm"
+      ],
+      "patroon": "Elleboogflexie",
+      "type": "Isolatie",
+      "materiaal": [
+        "dumbbell"
+      ],
+      "stabiliteit": "Vrij",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Mid",
+      "contra_indicaties": [
+        "Elleboog"
+      ],
+      "substitutiegroep": "biceps-hamer",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": null,
+      "ladder_position": null
+    },
+    {
+      "naam": "Machine Biceps Curl",
+      "primaire_spier": "Biceps",
+      "secundaire_spieren": [],
+      "patroon": "Elleboogflexie",
+      "type": "Isolatie",
+      "materiaal": [
+        "machine"
+      ],
+      "stabiliteit": "Ondersteund",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Mid",
+      "contra_indicaties": [
+        "Elleboog"
+      ],
+      "substitutiegroep": "biceps-curl-machine",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": null,
+      "ladder_position": null
+    },
+    {
+      "naam": "Skullcrusher",
+      "primaire_spier": "Triceps",
+      "secundaire_spieren": [],
+      "patroon": "Elleboogextensie",
+      "type": "Isolatie",
+      "materiaal": [
+        "ez_bar",
+        "bench"
+      ],
+      "stabiliteit": "Vrij",
+      "techniek_niveau": "Gevorderd",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Midden",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Gerekt",
+      "contra_indicaties": [
+        "Elleboog",
+        "Pols"
+      ],
+      "substitutiegroep": "triceps-extensie-liggend",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": null,
+      "ladder_position": null
+    },
+    {
+      "naam": "Close-Grip Bench Press",
+      "primaire_spier": "Triceps",
+      "secundaire_spieren": [
+        "Borst",
+        "Voorste delt"
+      ],
+      "patroon": "Horizontale pers",
+      "type": "Compound",
+      "materiaal": [
+        "barbell",
+        "bench"
+      ],
+      "stabiliteit": "Vrij",
+      "techniek_niveau": "Gevorderd",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Midden",
+      "belasting_profiel": "Kracht",
+      "weerstandsprofiel": "Mid",
+      "contra_indicaties": [
+        "Pols",
+        "Elleboog"
+      ],
+      "substitutiegroep": "triceps-compound",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": "Triceps-compound",
+      "ladder_position": 1
+    },
+    {
+      "naam": "Machine Triceps Extension",
+      "primaire_spier": "Triceps",
+      "secundaire_spieren": [],
+      "patroon": "Elleboogextensie",
+      "type": "Isolatie",
+      "materiaal": [
+        "machine"
+      ],
+      "stabiliteit": "Ondersteund",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Mid",
+      "contra_indicaties": [
+        "Elleboog"
+      ],
+      "substitutiegroep": "triceps-machine",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": null,
+      "ladder_position": null
+    },
+    {
+      "naam": "Triceps Dip",
+      "primaire_spier": "Triceps",
+      "secundaire_spieren": [
+        "Borst",
+        "Voorste delt"
+      ],
+      "patroon": "Dip",
+      "type": "Compound",
+      "materiaal": [
+        "dip_station"
+      ],
+      "stabiliteit": "Vrij",
+      "techniek_niveau": "Gevorderd",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Midden",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Gerekt",
+      "contra_indicaties": [
+        "Schouder"
+      ],
+      "substitutiegroep": "triceps-compound",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": "Triceps-compound",
+      "ladder_position": 2
+    },
+    {
+      "naam": "Barbell Back Squat",
+      "primaire_spier": "Quads",
+      "secundaire_spieren": [
+        "Billen",
+        "Hams",
+        "Onderrug",
+        "Core"
+      ],
+      "patroon": "Squat",
+      "type": "Compound",
+      "materiaal": [
+        "barbell",
+        "rack"
+      ],
+      "stabiliteit": "Vrij",
+      "techniek_niveau": "Gevorderd",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Hoog",
+      "belasting_profiel": "Kracht",
+      "weerstandsprofiel": "Mid",
+      "contra_indicaties": [
+        "Onderrug",
+        "Knie"
+      ],
+      "substitutiegroep": "quad-squat",
+      "coach_prioriteit": "voorkeur",
+      "novice_only": false,
+      "ladder_familie": "Squat-familie",
+      "ladder_position": 3
+    },
+    {
+      "naam": "Hack Squat",
+      "primaire_spier": "Quads",
+      "secundaire_spieren": [
+        "Billen"
+      ],
+      "patroon": "Squat",
+      "type": "Compound",
+      "materiaal": [
+        "hack_squat"
+      ],
+      "stabiliteit": "Machine",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Midden",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Gerekt",
+      "contra_indicaties": [
+        "Knie"
+      ],
+      "substitutiegroep": "quad-squat-machine",
+      "coach_prioriteit": "voorkeur",
+      "novice_only": false,
+      "ladder_familie": "Squat-familie",
+      "ladder_position": 2
+    },
+    {
+      "naam": "Leg Press",
+      "primaire_spier": "Quads",
+      "secundaire_spieren": [
+        "Billen",
+        "Hams"
+      ],
+      "patroon": "Squat-press",
+      "type": "Compound",
+      "materiaal": [
+        "leg_press"
+      ],
+      "stabiliteit": "Ondersteund",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Midden",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Gerekt",
+      "contra_indicaties": [
+        "Knie",
+        "Onderrug"
+      ],
+      "substitutiegroep": "quad-press",
+      "coach_prioriteit": "voorkeur",
+      "novice_only": false,
+      "ladder_familie": "Squat-familie",
+      "ladder_position": 1
+    },
+    {
+      "naam": "Pendulum Squat",
+      "primaire_spier": "Quads",
+      "secundaire_spieren": [
+        "Billen"
+      ],
+      "patroon": "Squat",
+      "type": "Compound",
+      "materiaal": [
+        "pendulum"
+      ],
+      "stabiliteit": "Machine",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Midden",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Gerekt",
+      "contra_indicaties": [
+        "Knie"
+      ],
+      "substitutiegroep": "quad-squat-machine",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": "Squat-familie",
+      "ladder_position": 2
+    },
+    {
+      "naam": "Smith Squat",
+      "primaire_spier": "Quads",
+      "secundaire_spieren": [
+        "Billen"
+      ],
+      "patroon": "Squat",
+      "type": "Compound",
+      "materiaal": [
+        "smith"
+      ],
+      "stabiliteit": "Machine",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Midden",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Mid",
+      "contra_indicaties": [
+        "Knie",
+        "Onderrug"
+      ],
+      "substitutiegroep": "quad-squat-machine",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": "Squat-familie",
+      "ladder_position": 2
+    },
+    {
+      "naam": "Goblet Squat",
+      "primaire_spier": "Quads",
+      "secundaire_spieren": [
+        "Billen",
+        "Core"
+      ],
+      "patroon": "Squat",
+      "type": "Compound",
+      "materiaal": [
+        "dumbbell"
+      ],
+      "stabiliteit": "Vrij",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Midden",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Mid",
+      "contra_indicaties": [
+        "Knie"
+      ],
+      "substitutiegroep": "quad-squat",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": "Squat-familie",
+      "ladder_position": 2
+    },
+    {
+      "naam": "Leg Extension",
+      "primaire_spier": "Quads",
+      "secundaire_spieren": [],
+      "patroon": "Knie-extensie",
+      "type": "Isolatie",
+      "materiaal": [
+        "leg_extension"
+      ],
+      "stabiliteit": "Ondersteund",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Samengetrokken",
+      "contra_indicaties": [
+        "Knie"
+      ],
+      "substitutiegroep": "quad-isolatie",
+      "coach_prioriteit": "voorkeur",
+      "novice_only": false,
+      "ladder_familie": null,
+      "ladder_position": null
+    },
+    {
+      "naam": "Bulgarian Split Squat",
+      "primaire_spier": "Quads",
+      "secundaire_spieren": [
+        "Billen"
+      ],
+      "patroon": "Lunge",
+      "type": "Compound",
+      "materiaal": [
+        "dumbbell"
+      ],
+      "stabiliteit": "Semi",
+      "techniek_niveau": "Gevorderd",
+      "unilateraal": "Ja",
+      "vermoeidheidskost": "Midden",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Gerekt",
+      "contra_indicaties": [
+        "Knie"
+      ],
+      "substitutiegroep": "quad-lunge",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": "Squat-familie",
+      "ladder_position": 4
+    },
+    {
+      "naam": "Romanian Deadlift",
+      "primaire_spier": "Hams",
+      "secundaire_spieren": [
+        "Billen",
+        "Onderrug"
+      ],
+      "patroon": "Hinge",
+      "type": "Compound",
+      "materiaal": [
+        "barbell"
+      ],
+      "stabiliteit": "Vrij",
+      "techniek_niveau": "Gevorderd",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Hoog",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Gerekt",
+      "contra_indicaties": [
+        "Onderrug"
+      ],
+      "substitutiegroep": "ham-hinge",
+      "coach_prioriteit": "voorkeur",
+      "novice_only": false,
+      "ladder_familie": "Hinge",
+      "ladder_position": 3
+    },
+    {
+      "naam": "Lying Leg Curl",
+      "primaire_spier": "Hams",
+      "secundaire_spieren": [],
+      "patroon": "Knieflexie",
+      "type": "Isolatie",
+      "materiaal": [
+        "leg_curl"
+      ],
+      "stabiliteit": "Ondersteund",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Mid",
+      "contra_indicaties": [
+        "Knie"
+      ],
+      "substitutiegroep": "ham-curl",
+      "coach_prioriteit": "voorkeur",
+      "novice_only": false,
+      "ladder_familie": null,
+      "ladder_position": null
+    },
+    {
+      "naam": "Seated Leg Curl",
+      "primaire_spier": "Hams",
+      "secundaire_spieren": [],
+      "patroon": "Knieflexie",
+      "type": "Isolatie",
+      "materiaal": [
+        "leg_curl"
+      ],
+      "stabiliteit": "Ondersteund",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Gerekt",
+      "contra_indicaties": [],
+      "substitutiegroep": "ham-curl",
+      "coach_prioriteit": "voorkeur",
+      "novice_only": false,
+      "ladder_familie": null,
+      "ladder_position": null
+    },
+    {
+      "naam": "Stiff-Leg Deadlift (DB)",
+      "primaire_spier": "Hams",
+      "secundaire_spieren": [
+        "Billen",
+        "Onderrug"
+      ],
+      "patroon": "Hinge",
+      "type": "Compound",
+      "materiaal": [
+        "dumbbell"
+      ],
+      "stabiliteit": "Vrij",
+      "techniek_niveau": "Gevorderd",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Midden",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Gerekt",
+      "contra_indicaties": [
+        "Onderrug"
+      ],
+      "substitutiegroep": "ham-hinge",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": "Hinge",
+      "ladder_position": 3
+    },
+    {
+      "naam": "Good Morning",
+      "primaire_spier": "Hams",
+      "secundaire_spieren": [
+        "Onderrug",
+        "Billen"
+      ],
+      "patroon": "Hinge",
+      "type": "Compound",
+      "materiaal": [
+        "barbell",
+        "rack"
+      ],
+      "stabiliteit": "Vrij",
+      "techniek_niveau": "Expert",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Hoog",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Gerekt",
+      "contra_indicaties": [
+        "Onderrug"
+      ],
+      "substitutiegroep": "ham-hinge",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": "Hinge",
+      "ladder_position": 4
+    },
+    {
+      "naam": "Nordic Curl",
+      "primaire_spier": "Hams",
+      "secundaire_spieren": [],
+      "patroon": "Knieflexie",
+      "type": "Isolatie",
+      "materiaal": [
+        "bodyweight"
+      ],
+      "stabiliteit": "Vrij",
+      "techniek_niveau": "Expert",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Midden",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Gerekt",
+      "contra_indicaties": [
+        "Knie"
+      ],
+      "substitutiegroep": "ham-curl",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": null,
+      "ladder_position": null
+    },
+    {
+      "naam": "Cable RDL",
+      "primaire_spier": "Hams",
+      "secundaire_spieren": [
+        "Billen"
+      ],
+      "patroon": "Hinge",
+      "type": "Compound",
+      "materiaal": [
+        "cable"
+      ],
+      "stabiliteit": "Ondersteund",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Gerekt",
+      "contra_indicaties": [],
+      "substitutiegroep": "ham-hinge",
+      "coach_prioriteit": "voorkeur",
+      "novice_only": false,
+      "ladder_familie": "Hinge",
+      "ladder_position": 1
+    },
+    {
+      "naam": "Dumbbell RDL",
+      "primaire_spier": "Hams",
+      "secundaire_spieren": [
+        "Billen",
+        "Onderrug"
+      ],
+      "patroon": "Hinge",
+      "type": "Compound",
+      "materiaal": [
+        "dumbbell"
+      ],
+      "stabiliteit": "Vrij",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Midden",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Gerekt",
+      "contra_indicaties": [
+        "Onderrug"
+      ],
+      "substitutiegroep": "ham-hinge",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": "Hinge",
+      "ladder_position": 2
+    },
+    {
+      "naam": "Barbell Hip Thrust",
+      "primaire_spier": "Billen",
+      "secundaire_spieren": [
+        "Hams"
+      ],
+      "patroon": "Bridge",
+      "type": "Compound",
+      "materiaal": [
+        "barbell",
+        "bench"
+      ],
+      "stabiliteit": "Semi",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Midden",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Samengetrokken",
+      "contra_indicaties": [],
+      "substitutiegroep": "bil-thrust",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": "Bridge",
+      "ladder_position": 2
+    },
+    {
+      "naam": "Machine Hip Thrust",
+      "primaire_spier": "Billen",
+      "secundaire_spieren": [
+        "Hams"
+      ],
+      "patroon": "Bridge",
+      "type": "Compound",
+      "materiaal": [
+        "hip_thrust_machine"
+      ],
+      "stabiliteit": "Ondersteund",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Samengetrokken",
+      "contra_indicaties": [],
+      "substitutiegroep": "bil-thrust",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": "Bridge",
+      "ladder_position": 1
+    },
+    {
+      "naam": "Cable Glute Kickback",
+      "primaire_spier": "Billen",
+      "secundaire_spieren": [],
+      "patroon": "Heupextensie",
+      "type": "Isolatie",
+      "materiaal": [
+        "cable"
+      ],
+      "stabiliteit": "Ondersteund",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Ja",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Metaboliet",
+      "weerstandsprofiel": "Samengetrokken",
+      "contra_indicaties": [],
+      "substitutiegroep": "bil-isolatie",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": null,
+      "ladder_position": null
+    },
+    {
+      "naam": "Hip Abduction Machine",
+      "primaire_spier": "Billen",
+      "secundaire_spieren": [],
+      "patroon": "Abductie",
+      "type": "Isolatie",
+      "materiaal": [
+        "machine"
+      ],
+      "stabiliteit": "Ondersteund",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Metaboliet",
+      "weerstandsprofiel": "Samengetrokken",
+      "contra_indicaties": [],
+      "substitutiegroep": "bil-abductie",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": null,
+      "ladder_position": null
+    },
+    {
+      "naam": "Bulgarian Split Squat (bil)",
+      "primaire_spier": "Billen",
+      "secundaire_spieren": [
+        "Quads"
+      ],
+      "patroon": "Lunge",
+      "type": "Compound",
+      "materiaal": [
+        "dumbbell"
+      ],
+      "stabiliteit": "Semi",
+      "techniek_niveau": "Gevorderd",
+      "unilateraal": "Ja",
+      "vermoeidheidskost": "Midden",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Gerekt",
+      "contra_indicaties": [
+        "Knie"
+      ],
+      "substitutiegroep": "bil-lunge",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": "Lunge",
+      "ladder_position": 3
+    },
+    {
+      "naam": "Step-up",
+      "primaire_spier": "Billen",
+      "secundaire_spieren": [
+        "Quads"
+      ],
+      "patroon": "Lunge",
+      "type": "Compound",
+      "materiaal": [
+        "dumbbell",
+        "bench"
+      ],
+      "stabiliteit": "Semi",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Ja",
+      "vermoeidheidskost": "Midden",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Gerekt",
+      "contra_indicaties": [
+        "Knie"
+      ],
+      "substitutiegroep": "bil-lunge",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": "Lunge",
+      "ladder_position": 1
+    },
+    {
+      "naam": "Sumo Deadlift",
+      "primaire_spier": "Billen",
+      "secundaire_spieren": [
+        "Quads",
+        "Hams",
+        "Onderrug"
+      ],
+      "patroon": "Hinge",
+      "type": "Compound",
+      "materiaal": [
+        "barbell"
+      ],
+      "stabiliteit": "Vrij",
+      "techniek_niveau": "Gevorderd",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Hoog",
+      "belasting_profiel": "Kracht",
+      "weerstandsprofiel": "Gerekt",
+      "contra_indicaties": [
+        "Onderrug"
+      ],
+      "substitutiegroep": "bil-hinge",
+      "coach_prioriteit": "vermijden",
+      "novice_only": false,
+      "ladder_familie": "Hinge",
+      "ladder_position": 3
+    },
+    {
+      "naam": "Standing Calf Raise",
+      "primaire_spier": "Kuiten",
+      "secundaire_spieren": [],
+      "patroon": "Plantairflexie",
+      "type": "Isolatie",
+      "materiaal": [
+        "calf_machine"
+      ],
+      "stabiliteit": "Ondersteund",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Gerekt",
+      "contra_indicaties": [],
+      "substitutiegroep": "kuit-staand",
+      "coach_prioriteit": "voorkeur",
+      "novice_only": false,
+      "ladder_familie": null,
+      "ladder_position": null
+    },
+    {
+      "naam": "Seated Calf Raise",
+      "primaire_spier": "Kuiten",
+      "secundaire_spieren": [],
+      "patroon": "Plantairflexie",
+      "type": "Isolatie",
+      "materiaal": [
+        "calf_machine"
+      ],
+      "stabiliteit": "Ondersteund",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Gerekt",
+      "contra_indicaties": [],
+      "substitutiegroep": "kuit-zittend",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": null,
+      "ladder_position": null
+    },
+    {
+      "naam": "Leg Press Calf Raise",
+      "primaire_spier": "Kuiten",
+      "secundaire_spieren": [],
+      "patroon": "Plantairflexie",
+      "type": "Isolatie",
+      "materiaal": [
+        "leg_press"
+      ],
+      "stabiliteit": "Ondersteund",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Gerekt",
+      "contra_indicaties": [],
+      "substitutiegroep": "kuit-staand",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": null,
+      "ladder_position": null
+    },
+    {
+      "naam": "Smith Calf Raise",
+      "primaire_spier": "Kuiten",
+      "secundaire_spieren": [],
+      "patroon": "Plantairflexie",
+      "type": "Isolatie",
+      "materiaal": [
+        "smith"
+      ],
+      "stabiliteit": "Machine",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Gerekt",
+      "contra_indicaties": [],
+      "substitutiegroep": "kuit-staand",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": null,
+      "ladder_position": null
+    },
+    {
+      "naam": "Cable Crunch",
+      "primaire_spier": "Core",
+      "secundaire_spieren": [],
+      "patroon": "Flexie",
+      "type": "Isolatie",
+      "materiaal": [
+        "cable"
+      ],
+      "stabiliteit": "Ondersteund",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Samengetrokken",
+      "contra_indicaties": [
+        "Onderrug"
+      ],
+      "substitutiegroep": "core-flexie",
+      "coach_prioriteit": "voorkeur",
+      "novice_only": false,
+      "ladder_familie": null,
+      "ladder_position": null
+    },
+    {
+      "naam": "Hanging Leg Raise",
+      "primaire_spier": "Core",
+      "secundaire_spieren": [
+        "Heupbuigers"
+      ],
+      "patroon": "Flexie",
+      "type": "Isolatie",
+      "materiaal": [
+        "pullup_bar"
+      ],
+      "stabiliteit": "Vrij",
+      "techniek_niveau": "Gevorderd",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Gerekt",
+      "contra_indicaties": [],
+      "substitutiegroep": "core-flexie",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": null,
+      "ladder_position": null
+    },
+    {
+      "naam": "Machine Crunch",
+      "primaire_spier": "Core",
+      "secundaire_spieren": [],
+      "patroon": "Flexie",
+      "type": "Isolatie",
+      "materiaal": [
+        "machine"
+      ],
+      "stabiliteit": "Ondersteund",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Samengetrokken",
+      "contra_indicaties": [
+        "Onderrug"
+      ],
+      "substitutiegroep": "core-flexie",
+      "coach_prioriteit": "voorkeur",
+      "novice_only": false,
+      "ladder_familie": null,
+      "ladder_position": null
+    },
+    {
+      "naam": "Plank",
+      "primaire_spier": "Core",
+      "secundaire_spieren": [],
+      "patroon": "Anti-extensie",
+      "type": "Isometrisch",
+      "materiaal": [
+        "bodyweight"
+      ],
+      "stabiliteit": "Vrij",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Metaboliet",
+      "weerstandsprofiel": "Mid",
+      "contra_indicaties": [],
+      "substitutiegroep": "core-anti-extensie",
+      "coach_prioriteit": "voorkeur",
+      "novice_only": false,
+      "ladder_familie": null,
+      "ladder_position": null
+    },
+    {
+      "naam": "Pallof Press",
+      "primaire_spier": "Core",
+      "secundaire_spieren": [],
+      "patroon": "Anti-rotatie",
+      "type": "Isolatie",
+      "materiaal": [
+        "cable"
+      ],
+      "stabiliteit": "Ondersteund",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Ja",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Metaboliet",
+      "weerstandsprofiel": "Mid",
+      "contra_indicaties": [],
+      "substitutiegroep": "core-anti-rotatie",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": null,
+      "ladder_position": null
+    },
+    {
+      "naam": "Ab Wheel Rollout",
+      "primaire_spier": "Core",
+      "secundaire_spieren": [],
+      "patroon": "Anti-extensie",
+      "type": "Compound",
+      "materiaal": [
+        "ab_wheel"
+      ],
+      "stabiliteit": "Vrij",
+      "techniek_niveau": "Gevorderd",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Midden",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Gerekt",
+      "contra_indicaties": [
+        "Onderrug"
+      ],
+      "substitutiegroep": "core-anti-extensie",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": null,
+      "ladder_position": null
+    },
+    {
+      "naam": "Weighted Decline Sit-up",
+      "primaire_spier": "Core",
+      "secundaire_spieren": [],
+      "patroon": "Flexie",
+      "type": "Isolatie",
+      "materiaal": [
+        "bench",
+        "dumbbell"
+      ],
+      "stabiliteit": "Vrij",
+      "techniek_niveau": "Gevorderd",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Mid",
+      "contra_indicaties": [
+        "Onderrug"
+      ],
+      "substitutiegroep": "core-flexie",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": null,
+      "ladder_position": null
+    },
+    {
+      "naam": "Single-Arm Cable Rear Delt Fly",
+      "primaire_spier": "Schouders",
+      "secundaire_spieren": [],
+      "patroon": "Horizontale trek (hoog)",
+      "type": "Isolatie",
+      "materiaal": [
+        "cable"
+      ],
+      "stabiliteit": "Ondersteund",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Ja",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Metaboliet",
+      "weerstandsprofiel": "Gerekt",
+      "contra_indicaties": [],
+      "substitutiegroep": "achterste-delt",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": null,
+      "ladder_position": null
+    },
+    {
+      "naam": "Single-Arm Cable Pushdown",
+      "primaire_spier": "Triceps",
+      "secundaire_spieren": [],
+      "patroon": "Elleboogextensie",
+      "type": "Isolatie",
+      "materiaal": [
+        "cable"
+      ],
+      "stabiliteit": "Ondersteund",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Ja",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Metaboliet",
+      "weerstandsprofiel": "Samengetrokken",
+      "contra_indicaties": [
+        "Elleboog"
+      ],
+      "substitutiegroep": "triceps-pushdown",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": null,
+      "ladder_position": null
+    },
+    {
+      "naam": "Single-Arm Overhead Cable Ext.",
+      "primaire_spier": "Triceps",
+      "secundaire_spieren": [],
+      "patroon": "Elleboogextensie",
+      "type": "Isolatie",
+      "materiaal": [
+        "cable"
+      ],
+      "stabiliteit": "Ondersteund",
+      "techniek_niveau": "Gevorderd",
+      "unilateraal": "Ja",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Gerekt",
+      "contra_indicaties": [
+        "Elleboog",
+        "Schouder"
+      ],
+      "substitutiegroep": "triceps-overhead",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": null,
+      "ladder_position": null
+    },
+    {
+      "naam": "Concentration Curl",
+      "primaire_spier": "Biceps",
+      "secundaire_spieren": [],
+      "patroon": "Elleboogflexie",
+      "type": "Isolatie",
+      "materiaal": [
+        "dumbbell"
+      ],
+      "stabiliteit": "Semi",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Ja",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Samengetrokken",
+      "contra_indicaties": [
+        "Elleboog"
+      ],
+      "substitutiegroep": "biceps-curl-preacher",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": null,
+      "ladder_position": null
+    },
+    {
+      "naam": "Single-Arm Cable Curl",
+      "primaire_spier": "Biceps",
+      "secundaire_spieren": [],
+      "patroon": "Elleboogflexie",
+      "type": "Isolatie",
+      "materiaal": [
+        "cable"
+      ],
+      "stabiliteit": "Ondersteund",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Ja",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Metaboliet",
+      "weerstandsprofiel": "Mid",
+      "contra_indicaties": [
+        "Elleboog"
+      ],
+      "substitutiegroep": "biceps-curl-staand",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": null,
+      "ladder_position": null
+    },
+    {
+      "naam": "Single-Arm Cable Row",
+      "primaire_spier": "Rug",
+      "secundaire_spieren": [
+        "Biceps"
+      ],
+      "patroon": "Horizontale trek",
+      "type": "Compound",
+      "materiaal": [
+        "cable"
+      ],
+      "stabiliteit": "Ondersteund",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Ja",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Gerekt",
+      "contra_indicaties": [],
+      "substitutiegroep": "rug-horizontale-trek",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": "Horizontale trek",
+      "ladder_position": 2
+    },
+    {
+      "naam": "Half-Kneeling 1-Arm Pulldown",
+      "primaire_spier": "Rug",
+      "secundaire_spieren": [
+        "Biceps"
+      ],
+      "patroon": "Verticale trek",
+      "type": "Compound",
+      "materiaal": [
+        "cable",
+        "lat_pulldown"
+      ],
+      "stabiliteit": "Ondersteund",
+      "techniek_niveau": "Gevorderd",
+      "unilateraal": "Ja",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Gerekt",
+      "contra_indicaties": [],
+      "substitutiegroep": "rug-verticale-trek",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": "Verticale trek",
+      "ladder_position": 2
+    },
+    {
+      "naam": "Single-Arm Cable Fly",
+      "primaire_spier": "Borst",
+      "secundaire_spieren": [],
+      "patroon": "Adductie",
+      "type": "Isolatie",
+      "materiaal": [
+        "cable"
+      ],
+      "stabiliteit": "Ondersteund",
+      "techniek_niveau": "Gevorderd",
+      "unilateraal": "Ja",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Metaboliet",
+      "weerstandsprofiel": "Gerekt",
+      "contra_indicaties": [
+        "Schouder"
+      ],
+      "substitutiegroep": "borst-isolatie",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": null,
+      "ladder_position": null
+    },
+    {
+      "naam": "Single-Leg Leg Press",
+      "primaire_spier": "Quads",
+      "secundaire_spieren": [
+        "Billen"
+      ],
+      "patroon": "Squat-press",
+      "type": "Compound",
+      "materiaal": [
+        "leg_press"
+      ],
+      "stabiliteit": "Ondersteund",
+      "techniek_niveau": "Gevorderd",
+      "unilateraal": "Ja",
+      "vermoeidheidskost": "Midden",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Gerekt",
+      "contra_indicaties": [
+        "Knie"
+      ],
+      "substitutiegroep": "quad-press",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": "Squat-familie",
+      "ladder_position": 3
+    },
+    {
+      "naam": "Single-Leg Seated Leg Curl",
+      "primaire_spier": "Hams",
+      "secundaire_spieren": [],
+      "patroon": "Knieflexie",
+      "type": "Isolatie",
+      "materiaal": [
+        "leg_curl"
+      ],
+      "stabiliteit": "Ondersteund",
+      "techniek_niveau": "Gevorderd",
+      "unilateraal": "Ja",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Gerekt",
+      "contra_indicaties": [],
+      "substitutiegroep": "ham-curl",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": null,
+      "ladder_position": null
+    },
+    {
+      "naam": "Single-Leg RDL (DB)",
+      "primaire_spier": "Hams",
+      "secundaire_spieren": [
+        "Billen",
+        "Core"
+      ],
+      "patroon": "Hinge",
+      "type": "Compound",
+      "materiaal": [
+        "dumbbell"
+      ],
+      "stabiliteit": "Semi",
+      "techniek_niveau": "Gevorderd",
+      "unilateraal": "Ja",
+      "vermoeidheidskost": "Midden",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Gerekt",
+      "contra_indicaties": [
+        "Onderrug"
+      ],
+      "substitutiegroep": "ham-hinge",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": "Hinge",
+      "ladder_position": 4
+    },
+    {
+      "naam": "Single-Leg Hip Thrust",
+      "primaire_spier": "Billen",
+      "secundaire_spieren": [
+        "Hams"
+      ],
+      "patroon": "Bridge",
+      "type": "Compound",
+      "materiaal": [
+        "dumbbell"
+      ],
+      "stabiliteit": "Semi",
+      "techniek_niveau": "Gevorderd",
+      "unilateraal": "Ja",
+      "vermoeidheidskost": "Midden",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Samengetrokken",
+      "contra_indicaties": [],
+      "substitutiegroep": "bil-thrust",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": "Bridge",
+      "ladder_position": 3
+    },
+    {
+      "naam": "Suitcase Carry",
+      "primaire_spier": "Core",
+      "secundaire_spieren": [],
+      "patroon": "Anti-laterale flexie",
+      "type": "Isometrisch",
+      "materiaal": [
+        "dumbbell"
+      ],
+      "stabiliteit": "Vrij",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Ja",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Metaboliet",
+      "weerstandsprofiel": "Mid",
+      "contra_indicaties": [],
+      "substitutiegroep": "core-anti-laterale-flexie",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": null,
+      "ladder_position": null
+    },
+    {
+      "naam": "Side Plank",
+      "primaire_spier": "Core",
+      "secundaire_spieren": [],
+      "patroon": "Anti-laterale flexie",
+      "type": "Isometrisch",
+      "materiaal": [
+        "bodyweight"
+      ],
+      "stabiliteit": "Vrij",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Ja",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Metaboliet",
+      "weerstandsprofiel": "Mid",
+      "contra_indicaties": [],
+      "substitutiegroep": "core-anti-laterale-flexie",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": null,
+      "ladder_position": null
+    },
+    {
+      "naam": "Cable Pull-through",
+      "primaire_spier": "Hams",
+      "secundaire_spieren": [
+        "Billen"
+      ],
+      "patroon": "Hinge",
+      "type": "Compound",
+      "materiaal": [
+        "cable"
+      ],
+      "stabiliteit": "Ondersteund",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Gerekt",
+      "contra_indicaties": [],
+      "substitutiegroep": "ham-hinge",
+      "coach_prioriteit": "neutraal",
+      "novice_only": true,
+      "ladder_familie": "Hinge",
+      "ladder_position": 1
+    },
+    {
+      "naam": "Close-Grip Lat Pulldown",
+      "primaire_spier": "Rug",
+      "secundaire_spieren": [
+        "Biceps"
+      ],
+      "patroon": "Verticale trek",
+      "type": "Compound",
+      "materiaal": [
+        "lat_pulldown"
+      ],
+      "stabiliteit": "Ondersteund",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Gerekt",
+      "contra_indicaties": [],
+      "substitutiegroep": "rug-verticale-trek",
+      "coach_prioriteit": "voorkeur",
+      "novice_only": false,
+      "ladder_familie": "Verticale trek",
+      "ladder_position": 1
+    },
+    {
+      "naam": "Smith Incline Press",
+      "primaire_spier": "Borst",
+      "secundaire_spieren": [
+        "Voorste delt",
+        "Triceps"
+      ],
+      "patroon": "Incline pers",
+      "type": "Compound",
+      "materiaal": [
+        "smith",
+        "bench"
+      ],
+      "stabiliteit": "Machine",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Midden",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Mid",
+      "contra_indicaties": [
+        "Schouder"
+      ],
+      "substitutiegroep": "borst-incline-pers",
+      "coach_prioriteit": "voorkeur",
+      "novice_only": false,
+      "ladder_familie": "Pers (incline)",
+      "ladder_position": 2
+    },
+    {
+      "naam": "Cable Chest Fly (Low)",
+      "primaire_spier": "Borst",
+      "secundaire_spieren": [],
+      "patroon": "Adductie",
+      "type": "Isolatie",
+      "materiaal": [
+        "cable"
+      ],
+      "stabiliteit": "Ondersteund",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Metaboliet",
+      "weerstandsprofiel": "Gerekt",
+      "contra_indicaties": [
+        "Schouder"
+      ],
+      "substitutiegroep": "borst-isolatie",
+      "coach_prioriteit": "voorkeur",
+      "novice_only": false,
+      "ladder_familie": null,
+      "ladder_position": null
+    },
+    {
+      "naam": "Dumbbell Front Raise",
+      "primaire_spier": "Schouders",
+      "secundaire_spieren": [],
+      "patroon": "Frontheffing",
+      "type": "Isolatie",
+      "materiaal": [
+        "dumbbell"
+      ],
+      "stabiliteit": "Vrij",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Metaboliet",
+      "weerstandsprofiel": "Mid",
+      "contra_indicaties": [],
+      "substitutiegroep": "voorste-delt",
+      "coach_prioriteit": "voorkeur",
+      "novice_only": false,
+      "ladder_familie": null,
+      "ladder_position": null
+    },
+    {
+      "naam": "Crunch",
+      "primaire_spier": "Core",
+      "secundaire_spieren": [],
+      "patroon": "Flexie",
+      "type": "Isolatie",
+      "materiaal": [
+        "bodyweight"
+      ],
+      "stabiliteit": "Vrij",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Metaboliet",
+      "weerstandsprofiel": "Samengetrokken",
+      "contra_indicaties": [],
+      "substitutiegroep": "core-flexie",
+      "coach_prioriteit": "voorkeur",
+      "novice_only": false,
+      "ladder_familie": null,
+      "ladder_position": null
+    },
+    {
+      "naam": "Sit-up",
+      "primaire_spier": "Core",
+      "secundaire_spieren": [
+        "Heupbuigers"
+      ],
+      "patroon": "Flexie",
+      "type": "Isolatie",
+      "materiaal": [
+        "bodyweight"
+      ],
+      "stabiliteit": "Vrij",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Metaboliet",
+      "weerstandsprofiel": "Mid",
+      "contra_indicaties": [],
+      "substitutiegroep": "core-flexie",
+      "coach_prioriteit": "voorkeur",
+      "novice_only": false,
+      "ladder_familie": null,
+      "ladder_position": null
+    },
+    {
+      "naam": "45° Back Extension",
+      "primaire_spier": "Onderrug",
+      "secundaire_spieren": [
+        "Billen",
+        "Hams"
+      ],
+      "patroon": "Extensie",
+      "type": "Compound",
+      "materiaal": [
+        "machine"
+      ],
+      "stabiliteit": "Ondersteund",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Gerekt",
+      "contra_indicaties": [],
+      "substitutiegroep": "onderrug-extensie",
+      "coach_prioriteit": "voorkeur",
+      "novice_only": false,
+      "ladder_familie": "Extensie",
+      "ladder_position": 1
+    },
+    {
+      "naam": "Machine Back Extension",
+      "primaire_spier": "Onderrug",
+      "secundaire_spieren": [],
+      "patroon": "Extensie",
+      "type": "Isolatie",
+      "materiaal": [
+        "machine"
+      ],
+      "stabiliteit": "Ondersteund",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Samengetrokken",
+      "contra_indicaties": [],
+      "substitutiegroep": "onderrug-extensie",
+      "coach_prioriteit": "voorkeur",
+      "novice_only": false,
+      "ladder_familie": null,
+      "ladder_position": null
+    },
+    {
+      "naam": "Reverse Hyperextension",
+      "primaire_spier": "Onderrug",
+      "secundaire_spieren": [
+        "Billen"
+      ],
+      "patroon": "Extensie",
+      "type": "Compound",
+      "materiaal": [
+        "machine"
+      ],
+      "stabiliteit": "Ondersteund",
+      "techniek_niveau": "Gevorderd",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Midden",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Samengetrokken",
+      "contra_indicaties": [],
+      "substitutiegroep": "onderrug-extensie",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": "Extensie",
+      "ladder_position": 2
+    },
+    {
+      "naam": "Glute-Ham Raise",
+      "primaire_spier": "Hams",
+      "secundaire_spieren": [
+        "Billen",
+        "Onderrug"
+      ],
+      "patroon": "Knieflexie",
+      "type": "Compound",
+      "materiaal": [
+        "machine"
+      ],
+      "stabiliteit": "Ondersteund",
+      "techniek_niveau": "Expert",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Hoog",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Gerekt",
+      "contra_indicaties": [
+        "Knie"
+      ],
+      "substitutiegroep": "ham-curl",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": "Knieflexie (compound)",
+      "ladder_position": 4
+    },
+    {
+      "naam": "Triceps Pushdown",
+      "primaire_spier": "Triceps",
+      "secundaire_spieren": [],
+      "patroon": "Elleboogextensie",
+      "type": "Isolatie",
+      "materiaal": [
+        "cable"
+      ],
+      "stabiliteit": "Ondersteund",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Metaboliet",
+      "weerstandsprofiel": "Samengetrokken",
+      "contra_indicaties": [
+        "Elleboog"
+      ],
+      "substitutiegroep": "triceps-pushdown",
+      "coach_prioriteit": "voorkeur",
+      "novice_only": false,
+      "ladder_familie": null,
+      "ladder_position": null
+    },
+    {
+      "naam": "Overhead Triceps Extension",
+      "primaire_spier": "Triceps",
+      "secundaire_spieren": [],
+      "patroon": "Elleboogextensie",
+      "type": "Isolatie",
+      "materiaal": [
+        "cable",
+        "dumbbell"
+      ],
+      "stabiliteit": "Ondersteund",
+      "techniek_niveau": "Gevorderd",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Gerekt",
+      "contra_indicaties": [
+        "Elleboog",
+        "Schouder"
+      ],
+      "substitutiegroep": "triceps-overhead",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": null,
+      "ladder_position": null
+    },
+    {
+      "naam": "45 Hip Extension (bil-focus)",
+      "primaire_spier": "Billen",
+      "secundaire_spieren": [
+        "Hams",
+        "Onderrug"
+      ],
+      "patroon": "Heupextensie",
+      "type": "Compound",
+      "materiaal": [
+        "back_extension_bench"
+      ],
+      "stabiliteit": "Ondersteund",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Gerekt",
+      "contra_indicaties": [
+        "Onderrug"
+      ],
+      "substitutiegroep": "bil-hipextensie-stretch",
+      "coach_prioriteit": "voorkeur",
+      "novice_only": false,
+      "ladder_familie": "Bil hip-extensie (stretch)",
+      "ladder_position": 1
+    },
+    {
+      "naam": "Reverse Lunge (DB)",
+      "primaire_spier": "Billen",
+      "secundaire_spieren": [
+        "Quads",
+        "Hams"
+      ],
+      "patroon": "Lunge",
+      "type": "Compound",
+      "materiaal": [
+        "dumbbell"
+      ],
+      "stabiliteit": "Semi",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Ja",
+      "vermoeidheidskost": "Midden",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Gerekt",
+      "contra_indicaties": [
+        "Knie"
+      ],
+      "substitutiegroep": "bil-lunge",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": "Lunge",
+      "ladder_position": 2
+    },
+    {
+      "naam": "Cable Box Step-up",
+      "primaire_spier": "Billen",
+      "secundaire_spieren": [
+        "Quads"
+      ],
+      "patroon": "Lunge",
+      "type": "Compound",
+      "materiaal": [
+        "cable",
+        "box"
+      ],
+      "stabiliteit": "Semi",
+      "techniek_niveau": "Novice",
+      "unilateraal": "Ja",
+      "vermoeidheidskost": "Midden",
+      "belasting_profiel": "Hypertrofie",
+      "weerstandsprofiel": "Gerekt",
+      "contra_indicaties": [
+        "Knie"
+      ],
+      "substitutiegroep": "bil-cable-stepup",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": "Lunge",
+      "ladder_position": 1
+    },
+    {
+      "naam": "Hip Adduction Machine",
+      "primaire_spier": "Adductoren",
+      "secundaire_spieren": [],
+      "patroon": "Adductie",
+      "type": "Isolatie",
+      "materiaal": [
+        "machine"
+      ],
+      "stabiliteit": "Ondersteund",
+      "techniek_niveau": "Gevorderd",
+      "unilateraal": "Nee",
+      "vermoeidheidskost": "Laag",
+      "belasting_profiel": "Metaboliet",
+      "weerstandsprofiel": "Samengetrokken",
+      "contra_indicaties": [],
+      "substitutiegroep": "bil-adductie",
+      "coach_prioriteit": "neutraal",
+      "novice_only": false,
+      "ladder_familie": null,
+      "ladder_position": null
+    }
+  ],
+  "wijzigingen_t.o.v._v1.7": [
+    "Sumo Deadlift: coach_prioriteit -> vermijden (engine v1.9.1 tier 9 = laatste redmiddel)",
+    "Hip Adduction Machine: techniek_niveau -> Gevorderd (VOORLOPIG; wordt eigen Adductoren-accessoire, zie taak E)"
+  ],
+  "wijzigingen_t.o.v._v1.8": [
+    "Hip Adduction Machine: primaire_spier Billen -> Adductoren (taak E; binnenbeen is eigen accessoire-spiergroep)"
+  ],
+  "wijzigingen_t.o.v._v1.9": [
+    "Pols-contra-indicatie toegevoegd aan 4 overhead presses (Overhead Barbell/Seated Dumbbell/Machine Shoulder/Smith Shoulder Press) — pols-geblesseerde klant krijgt geen overhead press (taak F)"
+  ]
+}
